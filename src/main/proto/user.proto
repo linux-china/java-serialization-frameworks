@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_outer_classname = "UserProto";
+
+package org.mvnsearch.serialization.proto;
+
+message UserPB {
+    int64 id = 1;
+    string nick = 2;
+    string email = 3;
+    string phone = 4;
+    double balance = 5;
+    int64 bornAt = 6;
+    int64 flag = 7;
+    bool vip = 8;
+}
