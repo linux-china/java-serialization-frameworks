@@ -13,7 +13,7 @@ public class Map2StructTest extends BaseTestCase {
     @Test
     public void testProtobufAndJava() {
         User user = constructUser();
-        UserPB userPB = UserMapper.INSTANCE.javaToProtobuf(user);
+        UserPB userPB = UserMapper.INSTANCE.convert(user);
         System.out.println(userPB.getBalance());
     }
 }
