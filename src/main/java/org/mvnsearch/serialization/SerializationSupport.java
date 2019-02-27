@@ -11,5 +11,5 @@ public interface SerializationSupport<T> {
 
     byte[] writeObject(T object) throws IOException;
 
-    T readObject(byte[] content) throws IOException;
+    T readObject(byte[] content, Class<?> targetClass) throws IOException;
 }
