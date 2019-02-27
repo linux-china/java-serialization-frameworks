@@ -9,20 +9,20 @@ import java.util.Date;
  * @author linux_china
  */
 public class User implements Serializable {
-    private Long id;
+    private long id;
     private String nick;
     private String email;
     private String phone;
-    private Double balance;
+    private double balance;
     private Date bornAt;
-    private Long flag;
-    private Boolean vip;
+    private long flag;
+    private boolean vip;
 
-    public Long getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -50,11 +50,11 @@ public class User implements Serializable {
         this.phone = phone;
     }
 
-    public Double getBalance() {
+    public double getBalance() {
         return balance;
     }
 
-    public void setBalance(Double balance) {
+    public void setBalance(double balance) {
         this.balance = balance;
     }
 
@@ -66,19 +66,19 @@ public class User implements Serializable {
         this.bornAt = bornAt;
     }
 
-    public Long getFlag() {
+    public long getFlag() {
         return flag;
     }
 
-    public void setFlag(Long flag) {
+    public void setFlag(long flag) {
         this.flag = flag;
     }
 
-    public Boolean getVip() {
+    public boolean isVip() {
         return vip;
     }
 
-    public void setVip(Boolean vip) {
+    public void setVip(boolean vip) {
         this.vip = vip;
     }
 }

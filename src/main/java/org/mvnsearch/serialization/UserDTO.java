@@ -14,12 +14,12 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 public class UserDTO {
-    private Long id;
+    private long id;
     private String nick;
     private String email;
     private String phone;
-    private Double balance;
+    private double balance;
     private Date bornAt;
-    private Long flag;
-    private Boolean vip;
+    private long flag;
+    private boolean vip;
 }
