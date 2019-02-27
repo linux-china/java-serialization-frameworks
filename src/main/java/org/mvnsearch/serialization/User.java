@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * User object
+ * User entity
  *
  * @author linux_china
  */
