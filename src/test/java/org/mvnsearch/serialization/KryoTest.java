@@ -41,5 +41,6 @@ public class KryoTest extends BaseTestCase {
         //validate
         assertThat(user).isEqualToComparingFieldByField(user2);
         System.out.println(user2.getBalance());
+        System.out.println(user2.getBornAt());
     }
 }
