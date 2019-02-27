@@ -16,8 +16,18 @@ public interface UserMapper {
     UserMapper INSTANCE = Mappers.getMapper(UserMapper.class);
 
     @Mapping(target = "bornAt", expression = "java(new java.util.Date(s.getBornAt()))")
-    User convert(UserPB s);
+    User convertToJava(UserPB s);
 
     @Mapping(target = "bornAt", expression = "java(s.getBornAt().getTime())")
-    UserPB convert(User s);
+    UserPB convertToProtobuf(User s);
+
+    @Mapping(target = "bornAt", expression = "java(s.getBornAt().getTime())")
+    UserPB convertToProtobuf(UserDTO s);
+
+    @Mapping(target = "bornAt", expression = "java(new java.util.Date(s.getBornAt()))")
+    UserDTO convertToDTO(UserPB s);
+
+    UserDTO convertToDTO(User s);
+
+    User convertToJava(UserDTO s);
 }
