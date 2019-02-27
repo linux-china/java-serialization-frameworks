@@ -5,6 +5,8 @@ import org.mvnsearch.serialization.BaseTestCase;
 import org.mvnsearch.serialization.SerializationSupport;
 import org.mvnsearch.serialization.User;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 /**
  * SerializationSupportKryoImpl test
  *
@@ -20,5 +22,6 @@ public class SerializationSupportKryoImplTest extends BaseTestCase {
         byte[] content = serialization.writeObject(user);
         User user2 = serialization.readObject(content, User.class);
         System.out.println(user2.getBornAt());
+        assertThat(user).isEqualToComparingFieldByField(user2);
     }
 }
