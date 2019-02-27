@@ -19,6 +19,7 @@ public abstract class BaseTestCase {
         user.setPhone("+189889089");
         user.setFlag(11111L);
         user.setBornAt(new Date());
+        user.setVip(true);
         return user;
     }
 }
