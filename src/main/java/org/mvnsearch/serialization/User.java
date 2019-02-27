@@ -16,6 +16,7 @@ public class User implements Serializable {
     private Double balance;
     private Date bornAt;
     private Long flag;
+    private Boolean vip;
 
     public Long getId() {
         return id;
@@ -71,5 +72,13 @@ public class User implements Serializable {
 
     public void setFlag(Long flag) {
         this.flag = flag;
+    }
+
+    public Boolean getVip() {
+        return vip;
+    }
+
+    public void setVip(Boolean vip) {
+        this.vip = vip;
     }
 }
