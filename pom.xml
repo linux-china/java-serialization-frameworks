@@ -19,7 +19,7 @@
         <hessian.version>4.0.60</hessian.version>
         <protobuf-java.version>3.6.1</protobuf-java.version>
         <lombok.version>1.18.6</lombok.version>
-        <map2struct.version>1.3.0.Final</map2struct.version>
+        <mapstruct.version>1.3.0.Final</mapstruct.version>
     </properties>
 
     <dependencies>
@@ -55,7 +55,7 @@
         <dependency>
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct</artifactId>
-            <version>${map2struct.version}</version>
+            <version>${mapstruct.version}</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -120,7 +120,7 @@
                         <path>
                             <groupId>org.mapstruct</groupId>
                             <artifactId>mapstruct-processor</artifactId>
-                            <version>${map2struct.version}</version>
+                            <version>${mapstruct.version}</version>
                         </path>
                     </annotationProcessorPaths>
                 </configuration>
