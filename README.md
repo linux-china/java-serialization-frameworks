@@ -1,7 +1,6 @@
 Java Serialization Frameworks
 ==============================
 
-
 ### Frameworks
 
 * Protobuf: native and protostuff  https://developers.google.com/protocol-buffers/
@@ -13,3 +12,9 @@ Java Serialization Frameworks
 * CBOR: http://cbor.io/
 * MessagePack: https://msgpack.org/
 * Thrift: http://thrift.apache.org/ https://github.com/apache/thrift/blob/master/doc/specs/thrift-compact-protocol.md
+
+
+### Assistant libraries
+
+* mapstruct
+* lombok
