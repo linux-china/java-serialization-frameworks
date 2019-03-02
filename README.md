@@ -4,7 +4,7 @@ Java Serialization Frameworks
 
 ### Frameworks
 
-* Protobuf: native and protostuff  https://developers.google.com/protocol-buffers/?hl=zh-CN
+* Protobuf: native and protostuff  https://developers.google.com/protocol-buffers/
 * FlatBuffers: https://google.github.io/flatbuffers/
 * Json
 * Kryo: https://github.com/EsotericSoftware/kryo
