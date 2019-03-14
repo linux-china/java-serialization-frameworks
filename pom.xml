@@ -17,7 +17,8 @@
         <kryo.version>5.0.0-RC2</kryo.version>
         <jackson.version>2.9.8</jackson.version>
         <hessian.version>4.0.60</hessian.version>
-        <protobuf-java.version>3.6.1</protobuf-java.version>
+        <protobuf-java.version>3.7.0</protobuf-java.version>
+        <sbe.version>1.12.3</sbe.version>
         <lombok.version>1.18.6</lombok.version>
         <mapstruct.version>1.3.0.Final</mapstruct.version>
     </properties>
@@ -45,6 +46,11 @@
             <groupId>com.caucho</groupId>
             <artifactId>hessian</artifactId>
             <version>${hessian.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>uk.co.real-logic</groupId>
+            <artifactId>sbe-all</artifactId>
+            <version>${sbe.version}</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
