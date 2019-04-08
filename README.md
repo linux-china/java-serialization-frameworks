@@ -13,7 +13,7 @@ Java Serialization Frameworks
 * MessagePack: https://msgpack.org/
 * Thrift: http://thrift.apache.org/ https://github.com/apache/thrift/blob/master/doc/specs/thrift-compact-protocol.md
 * SBE: https://github.com/real-logic/simple-binary-encoding
-
+* Jackson binary format backends: avro, cbor, protobuf, smile: https://github.com/FasterXML/jackson-dataformats-binary
 
 ### Assistant libraries
 
