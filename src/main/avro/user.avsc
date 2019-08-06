@@ -26,8 +26,13 @@
     },
     {
       "name": "bornAt",
-      "type": "long",
-      "logicType": "timestamp-micros"
+      "type": [
+        "null",
+        {
+          "type": "long",
+          "logicalType": "timestamp-millis"
+        }
+      ]
     },
     {
       "name": "flag",
