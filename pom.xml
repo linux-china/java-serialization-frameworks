@@ -204,6 +204,9 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <stringType>String</stringType>
+                </configuration>
             </plugin>
         </plugins>
     </build>
