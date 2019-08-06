@@ -21,19 +21,23 @@
     },
     {
       "name": "balance",
-      "type": "double"
+      "type": "double",
+      "default": 0
     },
     {
       "name": "bornAt",
-      "type": "long"
+      "type": "long",
+      "logicType": "timestamp-micros"
     },
     {
       "name": "flag",
-      "type": "long"
+      "type": "long",
+      "default": 0
     },
     {
       "name": "vip",
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     }
   ]
 }
