@@ -5,7 +5,7 @@ Java Serialization Frameworks
 
 * Protobuf: native and protostuff  https://developers.google.com/protocol-buffers/
 * FlatBuffers: https://google.github.io/flatbuffers/
-* Json
+* Json: https://www.json.org/
 * Kryo: https://github.com/EsotericSoftware/kryo
 * Hessian: http://hessian.caucho.com/
 * Avro: https://avro.apache.org/
@@ -19,3 +19,7 @@ Java Serialization Frameworks
 
 * mapstruct
 * lombok
+
+### Articles
+
+* Data Serialization with Avro and Protobuf: https://www.slideshare.net/gschmutz/big-data-serialization-with-avro-and-protobuf
