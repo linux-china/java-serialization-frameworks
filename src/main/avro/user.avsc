@@ -1,0 +1,39 @@
+{
+  "namespace": "org.mvnsearch.avro",
+  "type": "record",
+  "name": "User",
+  "fields": [
+    {
+      "name": "id",
+      "type": "long"
+    },
+    {
+      "name": "nick",
+      "type": "string"
+    },
+    {
+      "name": "email",
+      "type": "string"
+    },
+    {
+      "name": "phone",
+      "type": "string"
+    },
+    {
+      "name": "balance",
+      "type": "double"
+    },
+    {
+      "name": "bornAt",
+      "type": "long"
+    },
+    {
+      "name": "flag",
+      "type": "long"
+    },
+    {
+      "name": "vip",
+      "type": "boolean"
+    }
+  ]
+}
