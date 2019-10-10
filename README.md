@@ -8,7 +8,7 @@ Java Serialization Frameworks
 * Json: https://www.json.org/
 * Kryo: https://github.com/EsotericSoftware/kryo
 * Hessian: http://hessian.caucho.com/
-* Avro: https://avro.apache.org/
+* Avro: https://avro.apache.org/     Kafka Schema
 * CBOR: http://cbor.io/
 * MessagePack: https://msgpack.org/
 * Thrift: http://thrift.apache.org/ https://github.com/apache/thrift/blob/master/doc/specs/thrift-compact-protocol.md
@@ -19,6 +19,11 @@ Java Serialization Frameworks
 
 * mapstruct
 * lombok
+
+### WebAssembly Friendly
+
+* Avor
+* Json
 
 ### Articles
 
