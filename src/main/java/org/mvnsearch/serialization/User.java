@@ -1,6 +1,7 @@
 package org.mvnsearch.serialization;
 
 import java.io.Serializable;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 /**
@@ -17,6 +18,7 @@ public class User implements Serializable {
     private Date bornAt;
     private long flag;
     private boolean vip;
+    private LocalDateTime timestamp;
 
     public long getId() {
         return id;
@@ -80,5 +82,13 @@ public class User implements Serializable {
 
     public void setVip(boolean vip) {
         this.vip = vip;
+    }
+
+    public LocalDateTime getTimestamp() {
+        return timestamp;
+    }
+
+    public void setTimestamp(LocalDateTime timestamp) {
+        this.timestamp = timestamp;
     }
 }
