@@ -27,4 +27,17 @@ public class HessianTest extends BaseTestCase {
         User user2 = (User) input.readObject();
         Assertions.assertThat(user).isEqualToComparingFieldByField(user2);
     }
+
+    @Test
+    public void testRecord() throws Exception {
+        UserRecord user = new UserRecord(1, "leijuan");
+        ByteArrayOutputStream bos = new ByteArrayOutputStream();
+        HessianSerializerOutput output = new HessianSerializerOutput(bos);
+        output.writeObject(user);
+        output.flush();
+        ByteArrayInputStream bis = new ByteArrayInputStream(bos.toByteArray());
+        HessianSerializerInput input = new HessianSerializerInput(bis);
+        UserRecord user2 = (UserRecord) input.readObject();
+        Assertions.assertThat(user).isEqualToComparingFieldByField(user2);
+    }
 }
