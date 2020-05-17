@@ -1,5 +1,6 @@
 package org.mvnsearch.serialization;
 
+import java.time.LocalDateTime;
 import java.util.Date;
 
 /**
@@ -20,6 +21,7 @@ public abstract class BaseTestCase {
         user.setFlag(11111L);
         user.setBornAt(new Date());
         user.setVip(true);
+        user.setTimestamp(LocalDateTime.now());
         return user;
     }
 }
