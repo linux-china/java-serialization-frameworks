@@ -28,3 +28,4 @@ Java Serialization Frameworks
 ### Articles
 
 * Data Serialization with Avro and Protobuf: https://www.slideshare.net/gschmutz/big-data-serialization-with-avro-and-protobuf
+* 12 Best Apache Avro Features | Reasons Why Avro is Popular? https://data-flair.training/blogs/apache-avro-features/
