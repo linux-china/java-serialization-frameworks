@@ -23,11 +23,7 @@ public class FlatBuffersTest {
     public Monster constructMonster(long id, String command) {
         FlatBufferBuilder builder = new FlatBufferBuilder();
         int commandOffset = builder.createString(command);
-        Monster.startMonster(builder);
-        Monster.addId(builder, id);
-        Monster.addCommand(builder, commandOffset);
-        int orc = Monster.endMonster(builder);
-        builder.finish(orc);
+        builder.finish(Monster.createMonster(builder, id, commandOffset));
         ByteBuffer buf = builder.dataBuffer();
         return Monster.getRootAsMonster(buf);
     }
