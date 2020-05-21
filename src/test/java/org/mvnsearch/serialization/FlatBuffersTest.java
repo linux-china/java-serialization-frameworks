@@ -15,16 +15,20 @@ public class FlatBuffersTest {
 
     @Test
     public void testOperation() {
+        Monster monster = constructMonster(1, "save");
+        System.out.println(monster.command());
+        System.out.println(monster.id());
+    }
+
+    public Monster constructMonster(long id, String command) {
         FlatBufferBuilder builder = new FlatBufferBuilder();
-        int name = builder.createString("Good morning");
+        int commandOffset = builder.createString(command);
         Monster.startMonster(builder);
-        Monster.addId(builder, 2L);
-        Monster.addCommand(builder, name);
+        Monster.addId(builder, id);
+        Monster.addCommand(builder, commandOffset);
         int orc = Monster.endMonster(builder);
         builder.finish(orc);
         ByteBuffer buf = builder.dataBuffer();
-        Monster monster = Monster.getRootAsMonster(buf);
-        System.out.println(monster.command());
-        System.out.println(monster.id());
+        return Monster.getRootAsMonster(buf);
     }
 }
