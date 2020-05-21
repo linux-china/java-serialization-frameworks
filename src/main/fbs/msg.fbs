@@ -1,0 +1,4 @@
+table Monster {
+  id:long;
+  command:string;
+}
