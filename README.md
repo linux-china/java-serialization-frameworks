@@ -15,6 +15,7 @@ Java Serialization Frameworks
 * SBE: https://github.com/real-logic/simple-binary-encoding
 * Jackson binary format backends: avro, cbor, protobuf, smile: https://github.com/FasterXML/jackson-dataformats-binary
 * FlatBuffers: https://google.github.io/flatbuffers/
+* capnproto: https://capnproto.org/   https://dwrensha.github.io/capnproto-java/index.html
 
 ### Assistant libraries
 
