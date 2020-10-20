@@ -21,10 +21,11 @@
         <hessian.version>4.0.63</hessian.version>
         <protobuf-java.version>4.0.0-rc-2</protobuf-java.version>
         <flatbuffers-java.version>1.12.0</flatbuffers-java.version>
+        <capnp.version>0.1.5</capnp.version>
         <sbe.version>1.20.2</sbe.version>
         <msgpack.version>0.8.21</msgpack.version>
-        <lombok.version>1.18.12</lombok.version>
-        <mapstruct.version>1.4.0.Final</mapstruct.version>
+        <lombok.version>1.18.16</lombok.version>
+        <mapstruct.version>1.4.1.Final</mapstruct.version>
     </properties>
 
     <dependencies>
@@ -47,6 +48,11 @@
             <groupId>com.google.flatbuffers</groupId>
             <artifactId>flatbuffers-java</artifactId>
             <version>${flatbuffers-java.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.capnproto</groupId>
+            <artifactId>runtime</artifactId>
+            <version>${capnp.version}</version>
         </dependency>
         <!-- hessian-->
         <dependency>
@@ -239,6 +245,18 @@
                 <configuration>
                     <stringType>String</stringType>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.expretio.maven.plugins</groupId>
+                <artifactId>capnp-maven-plugin</artifactId>
+                <version>1.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
