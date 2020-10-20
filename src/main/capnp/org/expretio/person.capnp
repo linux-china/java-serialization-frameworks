@@ -3,7 +3,7 @@
 using Java = import "/java.capnp";
 
 $Java.package("org.expretio");
-$Java.outerClassname("Foo");
+$Java.outerClassname("Capnp");
 
 struct PersonStruct
 {
