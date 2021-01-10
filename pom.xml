@@ -13,17 +13,17 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit5.version>5.7.0</junit5.version>
-        <jmh.version>1.25.2</jmh.version>
-        <kryo.version>5.0.0-RC9</kryo.version>
-        <avor.version>1.10.0</avor.version>
-        <jackson.version>2.11.3</jackson.version>
+        <jmh.version>1.27</jmh.version>
+        <kryo.version>5.0.3</kryo.version>
+        <avor.version>1.10.1</avor.version>
+        <jackson.version>2.12.1</jackson.version>
         <jsoniter.version>0.9.23</jsoniter.version>
-        <hessian.version>4.0.63</hessian.version>
+        <hessian.version>4.0.65</hessian.version>
         <protobuf-java.version>4.0.0-rc-2</protobuf-java.version>
         <flatbuffers-java.version>1.12.0</flatbuffers-java.version>
         <capnp.version>0.1.5</capnp.version>
-        <sbe.version>1.20.2</sbe.version>
-        <msgpack.version>0.8.21</msgpack.version>
+        <sbe.version>1.20.4</sbe.version>
+        <msgpack.version>0.8.22</msgpack.version>
         <lombok.version>1.18.16</lombok.version>
         <mapstruct.version>1.4.1.Final</mapstruct.version>
     </properties>
@@ -114,12 +114,7 @@
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-params</artifactId>
+            <artifactId>junit-jupiter</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -130,7 +125,7 @@
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
-            <version>3.17.2</version>
+            <version>3.18.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
