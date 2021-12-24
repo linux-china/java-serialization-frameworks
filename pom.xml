@@ -12,11 +12,11 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <junit5.version>5.8.1</junit5.version>
-        <jmh.version>1.33</jmh.version>
-        <kryo.version>5.2.0</kryo.version>
+        <junit5.version>5.8.2</junit5.version>
+        <jmh.version>1.34</jmh.version>
+        <kryo.version>5.2.1</kryo.version>
         <avor.version>1.11.0</avor.version>
-        <jackson.version>2.13.0</jackson.version>
+        <jackson.version>2.13.1</jackson.version>
         <jsoniter.version>0.9.23</jsoniter.version>
         <hessian.version>4.0.65</hessian.version>
         <protobuf-java.version>3.19.1</protobuf-java.version>
@@ -25,7 +25,7 @@
         <sbe.version>1.24.0</sbe.version>
         <msgpack.version>0.9.0</msgpack.version>
         <lombok.version>1.18.22</lombok.version>
-        <mapstruct.version>1.5.0.Beta1</mapstruct.version>
+        <mapstruct.version>1.5.0.Beta2</mapstruct.version>
     </properties>
 
     <dependencies>
@@ -120,7 +120,7 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.2.7</version>
+            <version>1.2.9</version>
         </dependency>
         <dependency>
             <groupId>org.assertj</groupId>
@@ -131,7 +131,7 @@
         <dependency>
             <groupId>com.github.mp911de.microbenchmark-runner</groupId>
             <artifactId>microbenchmark-runner-junit5</artifactId>
-            <version>0.2.0.RELEASE</version>
+            <version>0.3.0.RELEASE</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -185,7 +185,7 @@
             <plugin>
                 <groupId>org.mvnsearch</groupId>
                 <artifactId>toolchains-maven-plugin</artifactId>
-                <version>4.0.2</version>
+                <version>4.1.0</version>
                 <executions>
                     <execution>
                         <goals>
