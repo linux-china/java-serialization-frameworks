@@ -13,19 +13,19 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit5.version>5.8.2</junit5.version>
-        <jmh.version>1.34</jmh.version>
+        <jmh.version>1.35</jmh.version>
         <kryo.version>5.3.0</kryo.version>
         <avor.version>1.11.0</avor.version>
         <jackson.version>2.13.2</jackson.version>
         <jsoniter.version>0.9.23</jsoniter.version>
-        <hessian.version>4.0.65</hessian.version>
-        <protobuf-java.version>3.19.1</protobuf-java.version>
+        <hessian.version>4.0.66</hessian.version>
+        <protobuf-java.version>3.20.0</protobuf-java.version>
         <flatbuffers-java.version>2.0.3</flatbuffers-java.version>
         <capnp.version>0.1.13</capnp.version>
-        <sbe.version>1.25.2</sbe.version>
+        <sbe.version>1.25.3</sbe.version>
         <msgpack.version>0.9.1</msgpack.version>
-        <lombok.version>1.18.22</lombok.version>
-        <mapstruct.version>1.5.0.Beta2</mapstruct.version>
+        <lombok.version>1.18.24</lombok.version>
+        <mapstruct.version>1.5.0.RC1</mapstruct.version>
     </properties>
 
     <dependencies>
@@ -73,6 +73,11 @@
             <version>${avor.version}</version>
         </dependency>
         <!-- msgpack-->
+        <dependency>
+            <groupId>org.msgpack</groupId>
+            <artifactId>msgpack</artifactId>
+            <version>0.6.12</version>
+        </dependency>
         <dependency>
             <groupId>org.msgpack</groupId>
             <artifactId>msgpack-core</artifactId>
