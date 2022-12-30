@@ -16,15 +16,15 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <junit5.version>5.9.1</junit5.version>
-        <jmh.version>1.35</jmh.version>
+        <jmh.version>1.36</jmh.version>
         <kryo.version>5.3.0</kryo.version>
         <avor.version>1.11.1</avor.version>
         <jackson.version>2.14.0-rc2</jackson.version>
         <jsoniter.version>0.9.23</jsoniter.version>
         <hessian.version>4.0.66</hessian.version>
         <protobuf-java.version>3.21.8</protobuf-java.version>
-        <flatbuffers-java.version>2.0.8</flatbuffers-java.version>
-        <capnp.version>0.1.14</capnp.version>
+        <flatbuffers-java.version>22.12.06</flatbuffers-java.version>
+        <capnp.version>0.1.15</capnp.version>
         <sbe.version>1.27.0</sbe.version>
         <msgpack.version>0.9.3</msgpack.version>
         <lombok.version>1.18.24</lombok.version>
