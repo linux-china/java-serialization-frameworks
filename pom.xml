@@ -19,10 +19,10 @@
         <jmh.version>1.36</jmh.version>
         <kryo.version>5.5.0</kryo.version>
         <avro.version>1.11.1</avro.version>
-        <jackson.version>2.14.2</jackson.version>
+        <jackson.version>2.15.0</jackson.version>
         <jsoniter.version>0.9.23</jsoniter.version>
         <hessian.version>4.0.66</hessian.version>
-        <protobuf-java.version>3.21.8</protobuf-java.version>
+        <protobuf-java.version>3.22.3</protobuf-java.version>
         <flatbuffers-java.version>23.3.3</flatbuffers-java.version>
         <capnp.version>0.1.15</capnp.version>
         <sbe.version>1.28.2</sbe.version>
