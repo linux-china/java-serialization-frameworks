@@ -18,7 +18,7 @@
     <junit5.version>5.10.0</junit5.version>
     <jmh.version>1.37</jmh.version>
     <kryo.version>5.5.0</kryo.version>
-    <avro.version>1.11.2</avro.version>
+    <avro.version>1.11.3</avro.version>
     <jackson.version>2.15.2</jackson.version>
     <jsoniter.version>0.9.23</jsoniter.version>
     <hessian.version>4.0.66</hessian.version>
