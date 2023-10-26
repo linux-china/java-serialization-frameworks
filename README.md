@@ -16,6 +16,8 @@ Java Serialization Frameworks
 * Jackson binary format backends: avro, cbor, protobuf, smile: https://github.com/FasterXML/jackson-dataformats-binary
 * FlatBuffers: https://google.github.io/flatbuffers/
 * capnproto: https://capnproto.org/   https://dwrensha.github.io/capnproto-java/index.html
+* fury: https://github.com/alipay/fury
+* Eclipse Serializer: https://github.com/eclipse-serializer/serializer
 
 ### Assistant libraries
 
