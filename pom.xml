@@ -91,6 +91,16 @@
       <artifactId>jackson-dataformat-msgpack</artifactId>
       <version>${msgpack.version}</version>
     </dependency>
+    <dependency>
+      <groupId>org.eclipse.serializer</groupId>
+      <artifactId>serializer</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.furyio</groupId>
+      <artifactId>fury-core</artifactId>
+      <version>0.2.1</version>
+    </dependency>
     <!-- jackson binary-->
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
