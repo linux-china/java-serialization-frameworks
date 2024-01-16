@@ -27,6 +27,13 @@ Java Serialization Frameworks
 * Avor
 * Json
 
+### Data Formats
+
+* Apache Parquet(storage): column-oriented data file format designed for efficient data storage and retrieval
+* Apache Arrow(memory analysis): Apache Arrow defines a language-independent columnar memory format for flat and hierarchical data, organized for efficient analytic operations on modern hardware like CPUs and GPUs.
+* Protocol Buffers(serialization): language-neutral, platform-neutral extensible mechanisms for serializing structured data.
+* PlatBuffer(serialization): efficient platform-neutral serialization library, does not need a parsing/ unpacking step to a secondary representation before you can access data, often coupled with per-object memory allocation
+
 ### Articles
 
 * Data Serialization with Avro and Protobuf: https://www.slideshare.net/gschmutz/big-data-serialization-with-avro-and-protobuf
