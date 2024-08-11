@@ -15,20 +15,20 @@
     <java.version>17</java.version>
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <maven.compiler.target>${java.version}</maven.compiler.target>
-    <junit5.version>5.10.0</junit5.version>
+    <junit5.version>5.10.3</junit5.version>
     <jmh.version>1.37</jmh.version>
-    <kryo.version>5.5.0</kryo.version>
-    <avro.version>1.11.2</avro.version>
-    <jackson.version>2.15.2</jackson.version>
+    <kryo.version>5.6.0</kryo.version>
+    <avro.version>1.12.0</avro.version>
+    <jackson.version>2.17.2</jackson.version>
     <jsoniter.version>0.9.23</jsoniter.version>
     <hessian.version>4.0.66</hessian.version>
-    <protobuf-java.version>3.24.2</protobuf-java.version>
-    <flatbuffers-java.version>23.5.26</flatbuffers-java.version>
-    <capnp.version>0.1.15</capnp.version>
-    <sbe.version>1.29.0</sbe.version>
-    <msgpack.version>0.9.5</msgpack.version>
-    <lombok.version>1.18.28</lombok.version>
-    <mapstruct.version>1.5.5.Final</mapstruct.version>
+    <protobuf-java.version>3.25.4</protobuf-java.version>
+    <flatbuffers-java.version>24.3.25</flatbuffers-java.version>
+    <capnp.version>0.1.16</capnp.version>
+    <sbe.version>1.32.1</sbe.version>
+    <msgpack.version>0.9.8</msgpack.version>
+    <lombok.version>1.18.34</lombok.version>
+    <mapstruct.version>1.6.0.RC1</mapstruct.version>
   </properties>
 
   <dependencies>
@@ -94,12 +94,12 @@
     <dependency>
       <groupId>org.eclipse.serializer</groupId>
       <artifactId>serializer</artifactId>
-      <version>1.0.0</version>
+      <version>1.4.0</version>
     </dependency>
     <dependency>
       <groupId>org.furyio</groupId>
       <artifactId>fury-core</artifactId>
-      <version>0.2.1</version>
+      <version>0.4.1</version>
     </dependency>
     <!-- jackson binary-->
     <dependency>
@@ -143,13 +143,13 @@
     <dependency>
       <groupId>org.assertj</groupId>
       <artifactId>assertj-core</artifactId>
-      <version>3.24.2</version>
+      <version>3.26.3</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>com.github.mp911de.microbenchmark-runner</groupId>
       <artifactId>microbenchmark-runner-junit5</artifactId>
-      <version>0.3.0.RELEASE</version>
+      <version>0.4.0.RELEASE</version>
       <scope>test</scope>
     </dependency>
     <dependency>
