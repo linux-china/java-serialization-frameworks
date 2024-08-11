@@ -1,6 +1,12 @@
 Java Serialization Frameworks
 ==============================
 
+Benefits of Serialization:
+
+- Persistence: Store objects in a file or database.
+- Communication: Send objects over a network.
+- Caching: Store objects in memory for later retrieval.
+
 ### Frameworks
 
 * Protobuf: native and protostuff  https://developers.google.com/protocol-buffers/
