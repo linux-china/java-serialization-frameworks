@@ -52,11 +52,6 @@
       <artifactId>flatbuffers-java</artifactId>
       <version>${flatbuffers-java.version}</version>
     </dependency>
-    <dependency>
-      <groupId>org.capnproto</groupId>
-      <artifactId>runtime</artifactId>
-      <version>${capnp.version}</version>
-    </dependency>
     <!-- hessian-->
     <dependency>
       <groupId>com.caucho</groupId>
@@ -274,18 +269,6 @@
         <configuration>
           <stringType>String</stringType>
         </configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.expretio.maven.plugins</groupId>
-        <artifactId>capnp-maven-plugin</artifactId>
-        <version>1.0</version>
-        <executions>
-          <execution>
-            <goals>
-              <goal>generate</goal>
-            </goals>
-          </execution>
-        </executions>
       </plugin>
       <!-- configuration to compile SBE schema xml file -->
       <plugin>
